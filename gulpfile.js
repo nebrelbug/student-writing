@@ -70,7 +70,7 @@ gulp.task('watch', function () {
 
 gulp.task('zip', ['css', 'js'], function () {
     var targetDir = 'dist/';
-    var themeName = require('./package.json').name;
+    var themeName = "StudentWritingTheme";
     var filename = themeName + '.zip';
 
     return gulp.src([
